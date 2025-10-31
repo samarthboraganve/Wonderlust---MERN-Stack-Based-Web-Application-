@@ -1,1 +1,1 @@
-# Wonderlust---MERN-Stack-Based-Web-Application-
+# Wonderlust-MERN Stack Based Web Application 

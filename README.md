@@ -1,10 +1,10 @@
 # Wonderlust-MERN Stack Based Web Application 
 
-🌍 WanderLust – MERN Stack Based Vacation Rental Platform 🏡
+🌍 WonderLust – MERN Stack Based Vacation Rental Platform 🏡
 
 📘 Project Overview
 
-WanderLust is a feature-rich Full Stack Web Application that provides an intuitive platform for exploring, listing, and booking vacation accommodations such as houses, villas, and farmhouses. The application empowers users to browse available properties, make secure bookings, and even list their own accommodations for rent.
+WonderLust is a feature-rich Full Stack Web Application that provides an intuitive platform for exploring, listing, and booking vacation accommodations such as houses, villas, and farmhouses. The application empowers users to browse available properties, make secure bookings, and even list their own accommodations for rent.
 
 Built with a scalable MERN architecture, WanderLust offers a seamless experience through a combination of a responsive front-end, robust back-end, cloud-based image storage, and real-time map integration. The platform prioritizes both performance and user experience, offering fast authentication, advanced search and filtering, and secure session management.
 
@@ -86,10 +86,10 @@ All property images are uploaded and stored on Cloudinary, ensuring secure, fast
 
 🚀 Deployment
 
-The WanderLust application is deployed on Render, ensuring high availability and scalability.
+The WonderLust application is deployed on Render, ensuring high availability and scalability.
 It is fully integrated with MongoDB Atlas for database management and Cloudinary for image storage.
 
-Live Demo: [WanderLust Project Link]
+Live Demo: [WonderLust Project Link]
 
 ✍️ Authors
 
@@ -107,6 +107,48 @@ File Handling	Multer, Cloudinary
 Session & Flash	Connect Flash, Connect Mongo
 Map Integration	Mapbox API
 Architecture	MVC (Model-View-Controller)
+
+
+Installation Steps
+Clone the Wanderlust repository from GitHub:
+
+git clone https://github.com/samarthboraganve/Wonderlust-MERN STACK BASED APPLICATION
+Set up the database:
+
+Create a .env file in the root directory of the project.
+
+Add the following line to the .env file:
+
+ATLASDB_URL=mongodb://127.0.0.1:27017/wonderlust
+Set up Cloudinary:
+
+Go to Cloudinary and sign up for a free account.
+
+Once logged in, obtain your Cloudinary CLOUD_NAME, CLOUD_API_KEY, and CLOUD_API_SECRET.
+
+Add these values to the .env file:
+
+CLOUD_NAME=your_cloud_name
+CLOUD_API_KEY=your_api_key
+CLOUD_API_SECRET=your_api_secret
+Set the secret for your Cloudinary storage:
+
+Add a SECRET key to your .env file and set it to a secure value:
+
+SECRET=your_cloudinary_secret
+Install project dependencies using npm:
+
+npm install
+Run the application using Nodemon:
+
+nodemon app.js
+Access the project:
+
+Once the server is running, you can access the project at http://localhost:8080/listings
+That's it! You have successfully installed and set up the Wanderlust web project on your local machine. If you encounter any issues during the installation process, feel free to reach out for assistance. Happy traveling! 🌍✈️
+
+
+
 
 💡 Summary
 

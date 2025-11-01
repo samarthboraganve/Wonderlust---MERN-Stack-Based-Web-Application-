@@ -3,7 +3,9 @@
 🌍 WanderLust – MERN Stack Based Vacation Rental Platform 🏡
 
 📘 Project Overview
+
 WanderLust is a feature-rich Full Stack Web Application that provides an intuitive platform for exploring, listing, and booking vacation accommodations such as houses, villas, and farmhouses. The application empowers users to browse available properties, make secure bookings, and even list their own accommodations for rent.
+
 Built with a scalable MERN architecture, WanderLust offers a seamless experience through a combination of a responsive front-end, robust back-end, cloud-based image storage, and real-time map integration. The platform prioritizes both performance and user experience, offering fast authentication, advanced search and filtering, and secure session management.
 
 🌐 Front-End Development
@@ -17,8 +19,11 @@ Framework: React.js
 Key Features:
 
 📱 Responsive Design: Ensures smooth functionality across desktops, tablets, and mobile devices.
+
 🧭 Interactive UI/UX: Designed for easy navigation and quick access to listings and bookings.
+
 🗺️ Mapbox API Integration: Displays property locations and enables location-based search features.
+
 🔍 Dynamic Search & Filter: Allows users to find properties based on price, type, and location.
 
 🛠️ Back-End Development
@@ -32,8 +37,11 @@ Express.js
 Core Functionalities:
 
 🧩 RESTful API Architecture: Enables smooth data exchange between the front-end and back-end.
+
 🔒 Authentication & Authorization: Implemented using Passport.js and JWT (JSON Web Token) for secure login and session handling.
+
 🏷️ Booking System: Manages property reservations and availability in real time.
+
 💬 Flash Messages & Notifications: Provides feedback for user actions (e.g., login success, booking confirmation).
 
 🗄️ Database Management
@@ -42,9 +50,13 @@ Database: MongoDB Atlas (Cloud-hosted NoSQL Database)
 ODM Tool: Mongoose
 
 Features:
+
 🗂️ Efficient Data Modeling: Structured schemas for users, properties, and bookings.
+
 🔍 Optimized Queries: For quick data retrieval and manipulation.
+
 ⚙️ Relationship Mapping: Ensures scalable and maintainable data flow between models.
+
 
 ☁️ Cloudinary Integration (Image Management)
 
@@ -97,4 +109,5 @@ Map Integration	Mapbox API
 Architecture	MVC (Model-View-Controller)
 
 💡 Summary
+
 WanderLust demonstrates end-to-end full-stack web development expertise — combining modern frameworks, secure authentication mechanisms, cloud integration, and clean UI/UX design. It delivers an all-in-one platform for exploring, listing, and booking accommodations with a focus on scalability, responsiveness, and user trust.

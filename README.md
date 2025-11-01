@@ -94,7 +94,7 @@ Live Demo: [WonderLust Project Link]
 ✍️ Authors
 
 Developed by:
-@samarthboraganve
+https://github.com/samarthboraganve
 
 🧰 Technologies & Packages Used
 Category	Tools / Packages

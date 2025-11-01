@@ -125,7 +125,7 @@ Nodemon – Installed globally for automatic server restarts
 
 Start by cloning the WonderLust project from GitHub to your local machine:
 
-git clone https://github.com/samarthboraganve/Wonderlust-.git
+git clone https://github.com/samarthboraganve/Wonderlust---MERN-Stack-Based-Web-Application-.git
 
 
 Navigate into the project directory:
